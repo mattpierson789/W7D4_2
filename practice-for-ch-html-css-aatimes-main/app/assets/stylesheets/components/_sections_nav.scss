@@ -1,0 +1,32 @@
+.main-header {
+    position: relative;
+    height: 200px; /* set a height for the header */
+  }
+
+  .sections ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  .sections li {
+    margin-right: 20px;
+  }
+  .sections a {
+    color: black;
+    text-decoration: none;
+    font-size: inherit;
+  }
+  .sections a:hover {
+    text-decoration: underline;
+  }
+  .articles {
+    margin-top: 50px; /* add some space between the header and the article sections */
+  }
+  .articles h2 {
+    font-size: 24px;
+  }
+  .articles p {
+    margin-top: 10px;
+  }

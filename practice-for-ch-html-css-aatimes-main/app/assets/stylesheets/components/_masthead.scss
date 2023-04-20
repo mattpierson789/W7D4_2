@@ -27,6 +27,10 @@
 		color: $dark-gray;
 	}
 
+	// > li:first-of-type {
+	// 	font-weight: bold;
+	// }
+
 	ul {
 		display: flex;
 		
@@ -48,7 +52,7 @@
 
 	li {
 		margin-left: 10px;
-		border-right: 1px solid $light-gray;
+		// border-right: 1px solid $light-gray;
 	}
 
 	button {
