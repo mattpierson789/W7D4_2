@@ -1,5 +1,6 @@
 @use '../variables' as *;
 
+
 .masthead {
 	display: flex;
 	flex-direction: column;
@@ -8,7 +9,7 @@
 	position: relative;
 }
 
-.language-nav {
+.topics {
 	position: absolute;
 	top: -15px;
 	left: calc(50% - (177.78px/2));
@@ -28,6 +29,7 @@
 
 	ul {
 		display: flex;
+		
 	}
 }
 
@@ -36,12 +38,13 @@
 	margin-top: 10px;
 }
 
-.masthead-links {
+.info {
 	display: flex;
 	font-family: $sans-serif;
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	list-style: none;
 
 	li {
 		margin-left: 10px;

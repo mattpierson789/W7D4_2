@@ -15,4 +15,34 @@
 			</li>
 		</ul>
 	</nav>
+
+   	<nav class="right-nav">
+
+		<ul>
+      <li data-controller="subscribe-now-button"> 
+
+        <div id="subscribe-now-button" data-action="click->modal#subscribeModal">
+          <span>Subscribe Now</span>
+        </div>
+
+      </li>
+
+			<li data-controller="Login">
+
+        <div id="Login" data-action="click->modal#loginModal">
+          <span>Login</span>
+        </div>
+
+			</li>
+
+     	<li data-controller="Gears">
+        <div id="Settings" data-action="click->modal#toggleSettings">
+          <i class="fa-solid fa-sharp fa-gear"></i>
+
+      </li>
+      
+
+		</ul>
+	</nav>
+
 </header>

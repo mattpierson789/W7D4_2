@@ -7,26 +7,30 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
+
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: navy;
+	border-color: navy;
+	color: white;   
+	font-weight: bold;
+	padding: 10px; 
+	border-radius: 5px;
+	transition: background-color 0.2s ease-out;
+	font-family: serif;
+	text-transform: capitalize;
+	font-size: inherit;
+	text-align: center;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: darkblue;
+	border-color: rgb(0, 0, 71);
 }
 
 /*
